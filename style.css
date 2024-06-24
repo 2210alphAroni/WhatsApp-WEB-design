@@ -1,0 +1,167 @@
+body{
+    display: flex;
+    justify-content:center ;
+    background-image: linear-gradient(
+        to bottom,
+        #00A884 0%,
+        #00A884 30%,
+        #F0F2F5 30%,
+        #F0F2F5 100%
+    );
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.container img{
+    width: 45px;
+    float: left;
+}
+
+.container h4{
+    color: white;
+    margin-left: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+
+.container-box .box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    width: 950px;
+    height: 970px;
+    padding-top: 30px;
+    background-image: linear-gradient(
+        to top,
+        #F9F9FA 0%,
+        #F9F9FA 43%,
+        #FFFFFF 43%,
+        #FFFFFF 100%
+    );
+}
+
+.container-box .box{
+    background-color: white;
+}
+
+
+.container-box .box .content{
+    border: 1px solid;
+    width: 800px;
+    height: 100px;
+    border-radius: 5px;
+    border-color: #D1D7DB;
+}
+
+.content img{
+    width: 57px;
+}
+
+.box >.content{
+    margin-left: 73px;
+}
+
+.content > img{
+    margin-left: 70px;
+    margin-top: 33px;
+    float: left;
+}
+
+.content > p{
+    margin-left: 30px;
+    font-size: large;
+    float: left;
+}
+
+.content> .text-set{
+    margin-left: 30px;
+    color: #737373;
+    font-size: small;
+}
+
+.content a{
+    text-decoration: none;
+    color: white;
+    float:right;
+    margin-top: -20px;
+}
+
+.btn{
+    width: 85px;
+    height: 50px;
+    border-radius: 30px;
+    border-color:white;
+    background-color: #017561;
+    float:right;
+    margin-top: -35px;
+    margin-left: -80px;
+}
+
+
+.box .QR-code{
+    float: right;
+    margin-top: 40px;
+    width: fit-content;
+    margin-right: 30px;
+}
+
+.content-list h1{
+    color: #41525D;
+    margin-left: 27px;
+    margin-top: 33px;
+}
+
+
+.capital{
+    color: #344b5c;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.capital1{
+    color: #344b5c;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.content-list ol{
+    font-size: large;
+    color: #3B4A54;
+}
+
+
+.content-list .line-style{
+    color: #D1D7DB;
+    width: 95%;
+}
+
+.content-list .link-phone{
+    text-decoration: none;
+    color: #008069;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 28px;
+}
+
+.box .tutorial-text{
+    font-size: larger;
+    color: #41525D;
+    margin-left: 430px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.box p .blank-link{
+    margin-left: 380px;
+    text-decoration: none;
+    color: #008069;
+}
+
+.box p .blank-link:hover{
+    text-decoration: underline;
+}
+
+.box .video{
+    margin-left: 220px;
+    width: 500px;
+    height: 300px;
+}
